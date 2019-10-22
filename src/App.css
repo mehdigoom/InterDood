@@ -6,10 +6,11 @@
 
 .App-logo {
   height: 30vmin;
+  margin: 15px;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #000000;
   min-height: 100vh;
   display: flex;
  
@@ -18,19 +19,46 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  
+
 }
 
-.App-txt {
-  background-color: #282c34;
+.App-txt-imprim {
+
 position: absolute;
   bottom: 20%;
+  left: 15%;
+  font-size: calc(20px + 2vmin);
+  color: white;
+  
+}
+.App-txt-move {
 
+position: absolute;
+  bottom: 20%;
+  left: 40%;
   font-size: calc(20px + 2vmin);
   color: white;
   
 }
 
+.App-txt-param {
+
+  position: absolute;
+    bottom: 20%;
+    left: 65%;
+    font-size: calc(20px + 2vmin);
+    color: white;
+    
+  }
+  .App-txt-mydood {
+
+    position: absolute;
+      bottom: 80%;
+      left: 5%;
+      font-size: calc(15px + 2vmin);
+      color: rgb(219, 193, 193);
+      
+    }
 
 .logo {
   background-color: #282c34;

@@ -4,18 +4,21 @@ import './App.css';
 import imprime from './imprimer.png'
 import param from './parametre.png'
 import routeur from './routeur.png'
+import move from './move.png'
 
 function App() {
   return (
     <div className="App">
     
       <header >
-      
+      <p className="App-txt-mydood">My Dood : No Dood connected</p>
        <div className="App-header">
-        <img src={imprime} className="App-logo" alt="logo" />
-        <p className="App-txt">Imprimer</p>
-        <img src={routeur} className="App-logo" alt="logo" />
-        <img src={param} className="App-logo" alt="logo" />
+        <img src={imprime} className="App-logo"  />
+        <p className="App-txt-imprim">Imprimer</p>
+        <img src={move} className="App-logo"  />
+        <p className="App-txt-move">Deplacer</p>
+        <img src={param} className="App-logo"  />
+        <p className="App-txt-param">parametre</p>
         </div>
         
       </header>
