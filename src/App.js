@@ -6,6 +6,7 @@ import param from './parametre.png'
 import routeur from './routeur.png'
 import move from './move.png'
 
+
 function App() {
   return (
     <div className="App">
@@ -18,7 +19,7 @@ function App() {
         <img src={move} className="App-logo"  />
         <p className="App-txt-move">Deplacer</p>
         <img src={param} className="App-logo"  />
-        <p className="App-txt-param">parametre</p>
+        <p className="App-txt-param">Parametres</p>
         </div>
         
       </header>
