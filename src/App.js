@@ -9,10 +9,8 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      brand: "Ford",
-      model: "Mustang",
-      color: "red",
-      year: 1964
+      mydood: "No Dood connected",
+
     };
   }
   render() {
@@ -20,7 +18,7 @@ class App extends React.Component {
     <div className="App">
     
       <header >
-      <p className="App-txt-mydood">My Dood : No Dood connected</p>
+      <p className="App-txt-mydood">My Dood : {this.state.mydood}</p>
        <div className="App-header">
         <img src={imprime} className="App-logo"  />
         <p className="App-txt-imprim">Imprimer</p>
